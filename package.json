@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "node-test": "file:"
+  },
+  "name": "node-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
